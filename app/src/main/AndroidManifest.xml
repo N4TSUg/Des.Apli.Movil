@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,9 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovilApp3431">
         <activity
-            android:name=".TransactionListActivity"
+            android:name=".PokemonListActivity"
             android:exported="true"
-            android:label="@string/title_activity_transaction_list"
+            android:label="@string/title_activity_pokemon_list"
             android:theme="@style/Theme.MovilApp3431" />
         <activity
             android:name=".ListaJetPackActivity"
@@ -34,11 +36,10 @@
             android:name=".JetPackActivity"
             android:exported="true"
             android:label="@string/title_activity_jet_pack"
-            android:theme="@style/Theme.MovilApp3431" />
+            android:theme="@style/Theme.MovilApp3431"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true" />
     </application>
-
 
 </manifest>
