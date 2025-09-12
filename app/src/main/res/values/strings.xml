@@ -4,4 +4,8 @@
     <string name="title_activity_lista_jet_pack">ListaJetPackActivity</string>
     <string name="title_activity_transaction_list">TransactionListActivity</string>
     <string name="title_activity_pokemon_list">PokemonListActivity</string>
+    <string name="title_activity_firebase_realtime_database">FirebaseRealtimeDatabaseActivity
+    </string>
+    <string name="title_activity_firebase_real_time_database">FirebaseRealTimeDatabaseActivity
+    </string>
 </resources>
