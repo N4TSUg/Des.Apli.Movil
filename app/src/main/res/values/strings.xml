@@ -8,4 +8,6 @@
     </string>
     <string name="title_activity_firebase_real_time_database">FirebaseRealTimeDatabaseActivity
     </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_add_new_user">AddNewUserActivity</string>
 </resources>
